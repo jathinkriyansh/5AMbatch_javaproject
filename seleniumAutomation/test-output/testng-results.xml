@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-11T23:49:38 IST" name="CBT_Suite" finished-at="2021-11-11T23:49:54 IST" duration-ms="16503">
+    <groups>
+    </groups>
+    <test started-at="2021-11-11T23:49:38 IST" name="chromeTestResults" finished-at="2021-11-11T23:49:44 IST" duration-ms="6129">
+      <class name="testng.crossbrowsertesting_FB_Login">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testng.crossbrowsertesting_FB_Login@33990a0c]" started-at="2021-11-11T23:49:38 IST" name="beforeClass" finished-at="2021-11-11T23:49:43 IST" duration-ms="5612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="tc_001_validateloginbutton()[pri:0, instance:testng.crossbrowsertesting_FB_Login@33990a0c]" started-at="2021-11-11T23:49:43 IST" name="tc_001_validateloginbutton" finished-at="2021-11-11T23:49:43 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001_validateloginbutton -->
+        <test-method signature="tc_002_loginfbapplication()[pri:0, instance:testng.crossbrowsertesting_FB_Login@33990a0c]" started-at="2021-11-11T23:49:43 IST" name="tc_002_loginfbapplication" finished-at="2021-11-11T23:49:44 IST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_002_loginfbapplication -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testng.crossbrowsertesting_FB_Login@33990a0c]" started-at="2021-11-11T23:49:44 IST" name="afterClass" finished-at="2021-11-11T23:49:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testng.crossbrowsertesting_FB_Login -->
+    </test> <!-- chromeTestResults -->
+    <test started-at="2021-11-11T23:49:44 IST" name="edgeTestResults" finished-at="2021-11-11T23:49:49 IST" duration-ms="4998">
+      <class name="testng.crossbrowsertesting_FB_Login">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testng.crossbrowsertesting_FB_Login@169e6180]" started-at="2021-11-11T23:49:44 IST" name="beforeClass" finished-at="2021-11-11T23:49:48 IST" duration-ms="4564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="tc_001_validateloginbutton()[pri:0, instance:testng.crossbrowsertesting_FB_Login@169e6180]" started-at="2021-11-11T23:49:48 IST" name="tc_001_validateloginbutton" finished-at="2021-11-11T23:49:48 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001_validateloginbutton -->
+        <test-method signature="tc_002_loginfbapplication()[pri:0, instance:testng.crossbrowsertesting_FB_Login@169e6180]" started-at="2021-11-11T23:49:49 IST" name="tc_002_loginfbapplication" finished-at="2021-11-11T23:49:49 IST" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_002_loginfbapplication -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testng.crossbrowsertesting_FB_Login@169e6180]" started-at="2021-11-11T23:49:49 IST" name="afterClass" finished-at="2021-11-11T23:49:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testng.crossbrowsertesting_FB_Login -->
+    </test> <!-- edgeTestResults -->
+    <test started-at="2021-11-11T23:49:49 IST" name="firfoxTestResults" finished-at="2021-11-11T23:49:54 IST" duration-ms="5245">
+      <class name="testng.crossbrowsertesting_FB_Login">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testng.crossbrowsertesting_FB_Login@6283d8b8]" started-at="2021-11-11T23:49:49 IST" name="beforeClass" finished-at="2021-11-11T23:49:54 IST" duration-ms="4748" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="tc_001_validateloginbutton()[pri:0, instance:testng.crossbrowsertesting_FB_Login@6283d8b8]" started-at="2021-11-11T23:49:54 IST" name="tc_001_validateloginbutton" finished-at="2021-11-11T23:49:54 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001_validateloginbutton -->
+        <test-method signature="tc_002_loginfbapplication()[pri:0, instance:testng.crossbrowsertesting_FB_Login@6283d8b8]" started-at="2021-11-11T23:49:54 IST" name="tc_002_loginfbapplication" finished-at="2021-11-11T23:49:54 IST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_002_loginfbapplication -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testng.crossbrowsertesting_FB_Login@6283d8b8]" started-at="2021-11-11T23:49:54 IST" name="afterClass" finished-at="2021-11-11T23:49:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testng.crossbrowsertesting_FB_Login -->
+    </test> <!-- firfoxTestResults -->
+  </suite> <!-- CBT_Suite -->
+</testng-results>

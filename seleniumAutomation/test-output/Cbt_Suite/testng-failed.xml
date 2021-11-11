@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Cbt_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="firfoxTestResult(failed)">
+    <parameter name="browsername" value="firfox"/>
+    <classes>
+      <class name="testng.Crossbrowsertestng">
+        <methods>
+          <include name="afterClass"/>
+          <include name="validateLoginButton"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testng.Crossbrowsertestng -->
+    </classes>
+  </test> <!-- firfoxTestResult(failed) -->
+</suite> <!-- Failed suite [Cbt_Suite] -->
