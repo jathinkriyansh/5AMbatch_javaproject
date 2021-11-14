@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.Crossbrowsertestngfblogin">
+      <class name="testng.crossbrowsertesting_FB_Login">
         <methods>
-          <include name="tc_002_Fbloginapplication"/>
-          <include name="tc_004_Fbloginapplication"/>
-          <include name="beforeClass"/>
+          <include name="tc_001_validateloginbutton"/>
           <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="tc_002_loginfbapplication"/>
         </methods>
-      </class> <!-- testng.Crossbrowsertestngfblogin -->
+      </class> <!-- testng.crossbrowsertesting_FB_Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
